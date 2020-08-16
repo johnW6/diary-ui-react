@@ -1,0 +1,60 @@
+.container {
+  align-self: center;
+  position: relative;
+  min-width: 95px;
+  box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.06);
+  border-radius: 12px;
+  padding: 6px 12px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-image: url(https://i.ibb.co/ZfCZrY8/keerthi.jpg);
+  background-size: contain;
+  display: block;
+}
+
+.contextMenu {
+  position: absolute;
+  background-color: #FFF;
+  padding: 20px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.06);
+  border-radius: 4px;
+  right: 0;
+  top: 63px;
+}
+
+.contextMenu_list {
+  list-style: none;
+  padding-inline-start: 0;
+  margin: 0;
+}
+
+.contextMenu_list__item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+  margin-bottom: 16px;
+  color: #A0AEC0;
+}
+
+.contextMenu_list__link {
+  color: #A0AEC0;
+}
+
+.contextMenu_list__item:hover,
+.contextMenu_list__link:hover {
+  color: #232425;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.contextMenu_list__item:last-child {
+  margin-bottom: 0;
+}

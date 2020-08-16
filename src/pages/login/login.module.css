@@ -1,0 +1,135 @@
+._container {
+    display: flex;
+    align-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: #F7FAFC;
+}
+
+._loginForm__container {
+    width: 780px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+._loginForm__box {
+    display: flex;
+    flex-direction: column;
+    height: 348px;
+    width: 320px;
+}
+
+._left__container {
+    flex-grow: 1;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+._welcomeMessage__container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    width: 458px;
+}
+
+._header__container {
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+._header__text {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+}
+
+._header__text_emphasis {
+    color: #314F9C;
+}
+
+._message__container {
+    margin-bottom: 34px;
+    text-align: center;
+}
+
+._message__text {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #7C8397;
+}
+
+._loginForm__formGroup {
+    display: flex;
+    align-content: center;
+    margin-bottom: 24px;
+}
+
+._loginForm__label {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 40px;
+    color: #7C8397;
+    margin-right: 16px;
+    text-align: right;
+    width: 78px;
+}
+
+._loginForm__inputBox {
+    display: block;
+    color: #232425;
+    background: #EDF2F7;
+    border: 1px solid #EDF2F7;
+    box-sizing: border-box;
+    border-radius: 4px;
+    height: 40px;
+    width: 225px;
+    padding: 0 12px;
+}
+
+._loginForm__header {
+    color: #3E3F40;
+    letter-spacing: 0.01em;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 20px;
+    margin-bottom: 32px;
+}
+
+._loginForm__message {
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: #718096;
+    margin-bottom: 32px;
+}
+
+._loginForm__button {
+    padding: 8px 16px;
+    width: 136px;
+    height: 40px;
+    background-color: #314F9C;
+    border-radius: 4px;
+    align-self: center;
+    color: white;
+    text-align: center;
+    border: none;
+    margin-left: auto;
+    order: 2;
+}
+
+._message__img {
+    height: 320px;
+    margin-top: 18px;
+}

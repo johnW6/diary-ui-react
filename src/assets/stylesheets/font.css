@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'ubuntuBold';
+  src: url('../font/ubuntu-bold-webfont.woff2') format('woff2'),
+       url('../font/ubuntu-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ubuntuBoldItalic';
+  src: url('../font/ubuntu-bolditalic-webfont.woff2') format('woff2'),
+       url('../font/ubuntu-bolditalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ubuntuItalic';
+  src: url('../font/ubuntu-italic-webfont.woff2') format('woff2'),
+       url('../font/ubuntu-italic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ubuntuLight';
+  src: url('../font/ubuntu-light-webfont.woff2') format('woff2'),
+       url('../font/ubuntu-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ubuntuLightItalic';
+  src: url('../font/ubuntu-lightitalic-webfont.woff2') format('woff2'),
+       url('../font/ubuntu-lightitalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ubuntuMedium';
+  src: url('../font/ubuntu-medium-webfont.woff2') format('woff2'),
+       url('../font/ubuntu-medium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ubuntuMediumItalic';
+  src: url('../font/ubuntu-mediumitalic-webfont.woff2') format('woff2'),
+       url('../font/ubuntu-mediumitalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ubuntu';
+  src: url('../font/ubuntu-regular-webfont.woff2') format('woff2'),
+       url('../font/ubuntu-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}

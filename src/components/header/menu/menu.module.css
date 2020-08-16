@@ -1,0 +1,41 @@
+.menu {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  list-style: none;
+  padding-inline-start: 0;
+  justify-content: center;
+  flex: 1;
+}
+
+.menuItem {
+  margin-right: 80px;
+}
+
+.menuItem:last-child {
+  margin-right: 0;
+}
+
+.menuItem_link {
+  color: #A0AEC0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+  display: flex;
+  align-items: flex-end;
+}
+
+.menuItem_link > svg {
+  margin-right: 10px;
+}
+
+.menuItem_link:hover,
+.menuItem_selected {
+  color: #232425;
+  text-decoration: none;
+}
+
+.menuItem_selected > svg {
+  stroke: #314F9C;
+}

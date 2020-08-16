@@ -1,0 +1,13 @@
+node_modules/
+*.iml
+*~
+.idea/
+.git/
+package-lock.json
+yarn-error.log
+build/
+.eslintcache
+.npmrc
+report/
+.jscpd/
+.vscode/
